@@ -1,10 +1,5 @@
-jwt:
-  secretKey: asdfkasdf89as7dfasd9fyuakjshdfa87sdf8iasuhfjas9d8f7as8idfuhjasd89f7asdi8fu
 
 spring:
-  application:
-    name: api-gateway
-
   #api gateway config
   cloud:
     gateway:
@@ -31,8 +26,4 @@ spring:
             - StripPrefix=2
             - AddRequestHeader=X-Custom-Header, Anuj
             - name: Authentication
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
 
