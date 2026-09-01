@@ -1,3 +1,4 @@
+jwt.secretKey: r29ZK7tvQOrpPOBTmImWF2VwcmDkEUVH2f5ZVPKZFn8
 
 spring:
   #api gateway config
